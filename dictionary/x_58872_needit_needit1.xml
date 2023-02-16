@@ -12,6 +12,7 @@
         <element attributes="encode_utf8=false" label="Created By" max_length="32" name="u_created_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Opened" mandatory="true" max_length="40" name="u_opened" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Opened By" mandatory="true" max_length="32" name="u_opened_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
